@@ -123,5 +123,8 @@ input[type="file"] {
   display: inline; 
 }
 
+a {
+  color: #dfdfe2;
+}
 
 
