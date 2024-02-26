@@ -1,0 +1,145 @@
+HTML
+------------------------------
+<!DOCTYPE html>
+<html lang="en">
+ <h1 id="title">What is your favorite Sport?</h1> 
+ <p id="description">thank you for participating in our quest to crown the best sport.</p>
+
+ <form id="survey-form">
+   <div class="input-element">
+   <label id="name-label"> Name
+     <input id="name" type="text" required placeholder="insert name"/>
+     </label>
+     </div>
+     <div class="input-element">
+       <label id="email-label"> Email
+         <input id="email" type="email" required placeholder="insert email"/>
+         </label>
+         </div>
+         <div class="input-element">
+           <label id="number-label"> Age
+<input id="number" type="number" min="10" max="100" required placeholder="age"/>
+           </label>
+           </div>
+           <div class="input-element">
+             <label>How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Instagram</option>
+            <option value="2">freeCodeCamp</option>
+            <option value="3">Facebook</option>
+            <option value="4">Twitter</option>
+          </select>
+        </label>
+        </div>
+        <div>
+          <label>Have you been to a game before?</label></div>
+          <div>
+          <label>Yes<input id="radio" type="radio" name="game" value="yes"></label>
+          </div>
+          <div>
+            <label>No<input id="radio" type="radio" name="game" value="no"></label>
+        </div>
+        <div>
+          <label>What's your favorite sport?</label></div>
+          <div>
+          <label>Basketball<input type="checkbox" name="sports" value="basketball"</label>
+          </div>
+          <div><label>Soccer<input type="checkbox" name="sports" value="soccer"</label>
+        </div>
+          <label>Football<input type="checkbox" name="sports" value="football"</label>
+          </div>
+          <div><label>Boxing<input type="checkbox" name="sports" value="boxing"</label>
+        </div>
+        <div><label>Baseball<input type="checkbox" name="sports" value="baseball"</label>
+        </div>
+        <div>
+          <label>Any other suggestions not listed?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="hockey?..."></textarea>
+        </label>
+      </div>
+      <div>
+      <input id="submit" type="submit" value="submit" />
+      </div>
+
+ </form>
+
+</html>
+
+-------------------------
+CSS
+-------------------------
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+
