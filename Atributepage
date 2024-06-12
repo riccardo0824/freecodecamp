@@ -1,0 +1,41 @@
+HTML 
+*******
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title id="title">A Tribute page</title>  
+    </head>
+<!-- MY HTML content goes here -->
+    <body>
+      <h1>Elon Musk</h1>
+      <p>Elon Musk a visionary</p>
+      <main id="main">
+<!-- This is the main image(1) div -->
+        <div id="img-div">
+<img id="image" src="https://www.dropbox.com/scl/fi/5cwttjafhiwxdp44avtr2/3d0da0ebf6339bad51887223a26410ae.jpeg?rlkey=t2fuxu9e2l9m7ja7vialy6vyh&raw=1" alt="elon musk" style="display: block; margin:0 auto;">
+<div id="img-caption">Elon Musk's influence encourages us to have faith in ourselves. His teachings emphasize the transformative power of an individual to ignite significant change. Musk's innovative mindset has reshaped our perspective on contemporary challenges, urging us to approach them from new angles. His profound insights serve as a catalyst for our aspirations to make a positive impact on the world.</div>
+        </div>
+        <div id="tribute-info">example tribute info #1</div>
+
+<!--div will be used for a link element tribute info #2 on Tesla -->
+        <div><a href="https://www.tesla.com/" id="tribute-link" target="_blank">example tribute info #2</a></div>
+        </main>
+</body>
+  </html
+
+*******
+CSS
+*******
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0, auto;
+  
+}
+
+#img-caption {
+
+}
