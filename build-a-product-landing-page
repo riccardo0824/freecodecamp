@@ -1,0 +1,80 @@
+HTML
+*********
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="header">
+      <img id="header-img" src="http">
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#section1">Section 1</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#section3"> Section 3</a>
+          </li>
+        </ul>
+      </nav>
+    </header><div class="flex">
+      <div id="section1" class="section"></div>
+      <div id="section2" class="section"></div>
+      <div id="section3" class="section"></div>
+    </div>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="email"  type="email" name="email"/>
+        <input id="submit" type="submit"/>
+        </form>   
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/oSmUI3m2kLk?si=1HWFWBSdPoLY_6eT"/>
+    </body>
+  </html>
+
+**********
+CSS
+**********
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="header">
+      <img id="header-img" src="http">
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#section1">Section 1</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#section2">Section 2</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#section3"> Section 3</a>
+          </li>
+        </ul>
+      </nav>
+    </header><div class="flex">
+      <div id="section1" class="section"></div>
+      <div id="section2" class="section"></div>
+      <div id="section3" class="section"></div>
+    </div>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="email"  type="email" name="email"/>
+        <input id="submit" type="submit"/>
+        </form>   
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/oSmUI3m2kLk?si=1HWFWBSdPoLY_6eT"/>
+    </body>
+  </html>
