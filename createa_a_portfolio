@@ -1,0 +1,71 @@
+HTLM
+********
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#">TEST#1</a>
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#profiles">Profiles</a></li>
+    </ul>
+  </nav>
+  <div id="welcome-section">
+    <h1>WELCOME FILLER TEXT</h1>
+  </div>
+  <div id="projects">
+    <div class="project-tile">
+      <a href="https://www.youtube.com/watch?v=5qKBs7QO_K8">Project 1</a>
+    </div>
+  </div>
+  <div id="profiles">
+    <a id="profile-link" target="_blank" href="https://www.freecodecamp.org/fcc57008c93-f906-45fb-b704-c72d9895ae58">Profile Link</a>
+  </div>
+</body>
+</html>
+
+  *******
+  CSS
+  *******
+  @media screen and (max-width: 600px) {
+  #nav-bar {
+    display: none;
+  }
+
+  #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* You can change the background color as needed */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  color: white;
+}
