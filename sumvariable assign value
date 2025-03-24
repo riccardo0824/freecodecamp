@@ -1,0 +1,8 @@
+Declare a sum variable and assign it the value of calling your addTwoNumbers function with 5 and 10 as the arguments. Log the sum variable to the console.
+
+function addTwoNumbers(a, b) {
+  let sum = a + b; 
+  return sum;
+}
+let sum = addTwoNumbers(5, 10); 
+console.log(sum);
