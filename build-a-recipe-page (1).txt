@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chocolate Chip Cookie Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chocolate Chip Cookie Recipe</h1>
+    <p>My Family's Secret Recipe</p>
+    <img src="https://joyfoodsunshine.com/wp-content/uploads/2018/02/best-chocolate-chip-cookies-recipe-5.jpg" alt="Cookie"></p>
+    <h2>
+      <p>Ingredients</p>
+      </h2>
+      <ul>
+<li>Salted butter, softened</li>
+<li>Granulated sugar</li>
+<li>Brown sugar</li>
+<li>Egg</li>
+<li>Vanilla extract</li>
+<li>All-purpose flour</li>
+<li>Baking soda</li>
+<li>Salt</li>
+<li>Favorite chocolate chips</li>
+    </ul>
+      </h2>
+    <h2>
+      <p>Instructions</p>
+      </h2>
+      <ol>
+       <li>Chocolate Chip Cookie Recipe
+</li> 
+       <li>In a medium bowl mix flour, baking soda, baking powder and salt. Set aside.
+</li>
+       <li>Cream together butter and sugars until combined.
+</li>
+       <li>Beat in eggs and vanilla until light (about 1 minute).
+</li>
+       <li>Mix in the dry ingredients until combined.
+</li>
+       <li>Add chocolate chips and mix well.
+</li>
+       <li>Roll 2-3 Tablespoons (depending on how large you like your cookies) of dough at a time into balls and place them evenly spaced on your prepared cookie sheets.
+</li>
+       <li>Bake in preheated oven for approximately 8-10 minutes. Take them out when they are just barely starting to turn brown.
+</li>
+       <li>Let them sit on the baking pan for 5 minutes before removing to cooling rack.
+</li>
+      </ol>        
+    
+</body>
+</html>
