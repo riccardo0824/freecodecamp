@@ -1,4 +1,5 @@
 let adjective = "fierce";
+
 let noun = "dragon";
 
 let verb = "roared";
@@ -13,25 +14,18 @@ let firstStory = `Once upon a time, there was a(n) ${adjective} ${noun} who love
 
 console.log(`First story: ${firstStory}`);
 
-let secondStory;
+adjective = "angry";
 
-let adjective = "angry";
+noun = "dwarf";
 
-let noun = "dwarf";
+verb = "danced";
 
-let verb = "danced";
+place = "in his room";
 
-let place = "in his room";
+adjective2 = "greedy";
 
-let adjective2 = "greedy";
+noun2 = "gold";
 
-let noun2 = "gold"
+let secondStory = `Once upon a time, there was a(n) ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
 
-
-
-
-
-
-
-
-
+console.log(`Second story: ${secondStory}`);
