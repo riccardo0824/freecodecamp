@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this will be a Japan Travel Agency Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Travel Agency Page</title>
+  </head>
+  <body>
+    <h1>Let's go to Japan</h1>
+    <p>Travel Opportunities</p>
+
+  <h2>Packages</h2>
+  <p>Various Packaes</p>
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn" alt="privatetour1" target="_blank">Group Travels</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" alt="privatetour1" target="_blank">Private Tours</a></li>
+  </ul>
+
+  <h2>Top Itineraries</h2>
+
+ <figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://media.istockphoto.com/id/1146262403/photo/woman-wearing-japanese-traditional-kimono-walking-at-historic-higashiyama-district-in-spring.jpg?s=612x612&w=0&k=20&c=0LOWlTmIxZBGblGZafxBWMnobeFW1_Yi0LdFZND2Lzg=" alt="japanpic1">
+  </a>
+  <figcaption>description 1</figcaption>
+</figure>
+
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-japan_335224-213.jpg?semt=ais_hybrid&w=740" alt="japanpic2">
+  </a>
+  <figcaption>description 2</figcaption>
+</figure>
+
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://theasiacollective.com/wp-content/uploads/2018/06/Tips.png" alt="japanpic3"> 
+  </a> 
+  <figcaption>description 3></figcaption>
+
+  </body>
+
+</html>
